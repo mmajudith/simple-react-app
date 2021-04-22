@@ -1,4 +1,11 @@
-body {
+@import "./styles/header.css";
+@import "./styles/balance.css";
+@import "./styles/selectcurrency.css";
+@import "./styles/activity.css";
+@import "./styles/footer.css";
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +17,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
