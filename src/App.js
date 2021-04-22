@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css';
 import Main from './components/Main'
 
 function App() {
@@ -10,5 +11,3 @@ function App() {
 }
 
 export default App;
-
-// "homepage": "http://mmajudith.github.io/medical-check-app/",

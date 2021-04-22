@@ -7,12 +7,16 @@ import Footer from './Footer'
 
 function Main() {
   return (
-    <div>
-      <Header />
-      <Balance />
-      <SelectCurrency />
-      <Activity />
-      <Footer />
+    <div className="container">
+        <div className="main">
+            <div className="border">
+                <Header />
+                <Balance />
+                <SelectCurrency />
+                <Activity />
+                <Footer />
+            </div>
+        </div>
     </div>
   )
 }

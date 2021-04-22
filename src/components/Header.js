@@ -16,9 +16,9 @@ function Header() {
       <div className="headings">
           <p>4:02</p>
           <div className="networks">
-              <FaSignal />
-              <FaWifi />
-              <FaBatteryFull />
+              <FaSignal className="marginLeft"/>
+              <FaWifi className="marginLeft"/>
+              <FaBatteryFull className="marginLeft"/>
           </div>
       </div>
 
@@ -27,8 +27,8 @@ function Header() {
               <p>logo</p>
           </div>
           <div className="userNoti-wrapper">
-              <FaUserCircle />
-              <FaBell />
+              <FaUserCircle className="user"/>
+              <FaBell className="bell"/>
           </div>
       </div>
     </header>

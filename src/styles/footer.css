@@ -1,0 +1,36 @@
+footer{
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+
+.footer-wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-wrapper p{
+    font-size: 16px;
+    color: hsl(352,95%,81%);
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.footer-wrapper .img{
+    font-size: 46px;
+    color: hsl(352,95%,81%);
+}
+
+.footer-wrapper .home p {
+    color: hsl(352,95%,58%) ;
+}
+
+.footer-wrapper .home .img {
+    color: hsl(352,95%,58%) ;
+}
