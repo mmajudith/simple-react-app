@@ -23,3 +23,51 @@
     box-shadow: 0px 0px 5px rgba(0,0,0,.60);
     background-color: hsl(0,0%,85%)
 }
+
+.tok-zeros-wrapper .zeros{
+    width: 90%;
+    text-align: left;
+    color: hsl(0,0%,62%);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tok-zeros-wrapper .token{
+    width: 10%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.60);
+}
+
+.button-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 20px;
+}
+
+.button-wrapper button{
+    background-color: deepskyblue;
+    color: #FFF;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-wrapper .send{
+    padding: 20px 42px;
+}
+
+.button-wrapper .receive{
+    margin-left: 100px;
+    padding: 20px 30px;
+}

@@ -27,9 +27,9 @@ function Activity() {
           <div className="amounts-wrapper">
             <p>Amount</p>
 
-            <p>N100</p>
-            <p>N200</p>
-            <p>N300</p>
+            <p>N100.00</p>
+            <p>N200.00</p>
+            <p>N300.00</p>
           </div>
 
       </div>

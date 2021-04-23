@@ -1,0 +1,38 @@
+.activities-container{
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+
+.activities-container > p{
+    padding: 20px;
+    color: snow;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: hsl(0,0%,85%);
+}
+
+.recent-acts{
+    width: 99%;
+    height: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 22px;
+    background-color: hsl(0,0%,85%);
+    text-transform: uppercase;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .70);
+    border: 1px solid #000;
+}
+
+.amounts-wrapper{
+    margin-right: 15px;
+}
+
+.dates-wrapper{
+    margin-left: 5px;
+}
