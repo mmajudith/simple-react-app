@@ -121,10 +121,11 @@ header{
 
   @media screen and (max-width: 500px) {
     .app-ear-speak{
-        width: 35%;
+        width: 40%;
         height: 35px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        top: -2px;
     }
 
     .app-ear-speak .camera{
