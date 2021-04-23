@@ -44,3 +44,13 @@ footer{
         font-size: 36px;
     }
 }
+
+@media screen and (max-width: 500px){
+    .footer-wrapper p{
+        font-size: 12px;
+    }
+
+    .footer-wrapper .img{
+        font-size: 30px;
+    }
+}

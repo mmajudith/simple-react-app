@@ -118,3 +118,65 @@ header{
         font-size: 20px;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .app-ear-speak{
+        width: 35%;
+        height: 35px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .app-ear-speak .camera{
+        width: 8px;
+        height: 8px;
+    }
+    
+    .app-ear-speak .ear-speak{
+        width: 30px;
+        height: 4px;
+        border: 2px solid hsl(205,3%,55%);
+        border-radius: 50px;
+        margin-right: 5px;
+    }
+
+    .headings{
+        width: 95%;
+        font-size: 14px;
+        top: -25px;
+    }
+
+    .headings > p{
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    
+    .headings .networks .marginLeft{
+        margin-left: 5px;
+    }
+
+    #marRight {
+        margin-right: 15px;
+    }
+
+    .logo-wrapper{
+        height: 15px;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 3px 20px;
+        padding-top: 4px;
+    }
+    
+    .userNoti-wrapper .user{
+        font-size: 30px;
+    }
+    
+    .userNoti-wrapper .bell{
+        font-size: 15px;
+    }
+
+    .userNoti-wrapper{
+        padding-bottom: 5px;
+    }
+
+  }

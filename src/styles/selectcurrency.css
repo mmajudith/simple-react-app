@@ -99,3 +99,33 @@
         padding: 12px 20px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .selectCur > p{
+        font-size: 15px;
+    }
+
+    .tok-zeros-wrapper .zeros{
+        width: 75%;
+        padding: 5px 10px;
+    }
+    
+    .tok-zeros-wrapper .token{
+        width: 25%;
+        padding: 5px 10px;
+    }
+
+    .button-wrapper button{
+        font-size: 13px;
+        margin: auto auto;
+    }
+    
+    .button-wrapper .send{
+        padding: 10px 25px;
+    }
+    
+    .button-wrapper .receive{
+        margin-left: 10px;
+        padding: 10px 15px;
+    }
+}

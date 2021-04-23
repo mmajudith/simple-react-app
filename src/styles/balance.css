@@ -28,3 +28,10 @@
         font-size: 18px;
     }
   }
+
+@media screen and (max-width: 500px) {
+    .bal{
+        line-height: 40px;
+        font-size: 16px;
+    }
+}

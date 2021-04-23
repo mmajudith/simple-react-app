@@ -18,7 +18,7 @@ function Header() {
           <div className="networks">
               <FaSignal className="marginLeft"/>
               <FaWifi className="marginLeft"/>
-              <FaBatteryFull className="marginLeft"/>
+              <FaBatteryFull className="marginLeft" id="marRight"/>
           </div>
       </div>
 
