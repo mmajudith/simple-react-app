@@ -34,3 +34,13 @@ footer{
 .footer-wrapper .home .img {
     color: hsl(352,95%,58%) ;
 }
+
+@media screen and (max-width: 768px){
+    .footer-wrapper p{
+        font-size: 14px;
+    }
+
+    .footer-wrapper .img{
+        font-size: 36px;
+    }
+}

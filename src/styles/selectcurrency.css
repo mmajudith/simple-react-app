@@ -71,3 +71,31 @@
     margin-left: 100px;
     padding: 20px 30px;
 }
+
+@media screen and (max-width: 768px){
+    .selectCur > p{
+        font-size: 16px;
+    }
+
+    .tok-zeros-wrapper .zeros{
+        width: 75%;
+    }
+    
+    .tok-zeros-wrapper .token{
+        width: 25%;
+    }
+
+    .button-wrapper button{
+        font-size: 14px;
+        margin: auto auto;
+    }
+    
+    .button-wrapper .send{
+        padding: 12px 30px;
+    }
+    
+    .button-wrapper .receive{
+        margin-left: 30px;
+        padding: 12px 20px;
+    }
+}

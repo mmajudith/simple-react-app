@@ -21,3 +21,10 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .70);
     border: 1px solid #000;
 }
+
+@media screen and (max-width: 768px) {
+    .bal{
+        line-height: 50px;
+        font-size: 18px;
+    }
+  }
