@@ -4,8 +4,10 @@ import { FaWifi } from "react-icons/fa";
 import { FaSignal } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 function Header() {
+
   return (
     <header>
       <div className="app-ear-speak">
@@ -24,11 +26,11 @@ function Header() {
 
       <div className="menu">
           <div className="logo-wrapper">
-              <p>logo</p>
+              <Link className="activeStyle" to="/simple-react-app/logo"><p>logo</p></Link>
           </div>
           <div className="userNoti-wrapper">
-              <FaUserCircle className="user"/>
-              <FaBell className="bell"/>
+              <Link to="/simple-react-app/profile"><FaUserCircle className="user"/></Link>
+              <Link to="/simple-react-app/notification"><FaBell className="bell"/></Link>
           </div>
       </div>
     </header>

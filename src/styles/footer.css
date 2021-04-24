@@ -7,7 +7,7 @@ footer{
 .footer-wrapper{
     width: 90%;
     height: 100%;
-    margin: 30px auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,6 +24,7 @@ footer{
 
 .footer-wrapper .img{
     font-size: 46px;
+    margin-top: 12px;
     color: hsl(352,95%,81%);
 }
 
